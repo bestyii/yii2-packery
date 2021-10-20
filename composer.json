@@ -1,0 +1,23 @@
+{
+    "name": "bestyii/yii2-packery",
+    "description": "yii2的方式引用packery",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","packery","masonry","draggable"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Bestyii",
+            "email": "info@bestyii.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/packery": "~2.1",
+        "bower-asset/draggabilly": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "bestyii\\packery\\": "src"
+        }
+    }
+}
